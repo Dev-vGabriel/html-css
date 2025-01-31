@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens</title>
+</head>
+<body>
+    <h1>imagens adaptivas</h1>
+    <p>vamos adaptar as imagens de acordo com a caracteristicas de cada navegador seja ele celular, computador, tablet</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/start-300.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/start-700.jpg" type="image/jpg">
+        <img src="imagens/start-1000.jpg" alt="imagem flexível">
+    </picture>
+    <p>resumindo conseguir fazer a imagem ficar flexivel mas ao mesmo tempo saiu um pouco errado.</p>
+    
+</body>
+</html>

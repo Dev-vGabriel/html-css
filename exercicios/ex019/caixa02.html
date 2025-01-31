@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: cursive;
+            background-color: aquamarine;
+            margin: 0px;
+        }
+
+        h1 {
+            box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.301);
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: 900;
+            margin-right: 30px;
+        } 
+
+        nav > a:hover  {
+            text-decoration: underline;
+            color: pink;
+        }
+
+        main {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+
+        article {
+            background-color: grey;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: yellow;
+            text-align: center;
+            width: 400px;
+            height: 30px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            margin: 0px auto;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0;
+        }
+
+        #bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50px;
+        }
+
+    </style>
+    <title>Grouping tags</title>
+</head>
+<body>
+   <header>
+       <h1>Meu site</h1>
+       <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+       </nav>
+   </header>
+   <main>
+       <section class="assuntos">
+            <p>Esportes Politicas e Tecnologia</p>
+       </section>
+       <section class="noticias">
+           <article>
+               <h2>Noticias sobre o Brasil</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reiciendis molestiae fuga. Fuga, hic amet quod quaerat perferendis maiores assumenda itaque dignissimos, soluta perspiciatis minus deserunt consequuntur pariatur placeat eligendi.</p>
+               <aside>
+                    <p>artigo escrito por lula</p>
+               </aside>
+           </article>
+           <article>
+
+           </article>
+       </section>
+   </main>
+   <footer>
+         <p>desenvolvido pelo curso em video</p>
+   </footer>
+</body>
+</html>
