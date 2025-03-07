@@ -3,21 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
 
     <style>
         body {
-            height: 100vh;
+            min-height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center center;
             background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-position: center center;
             background-size: cover;
+
+            /* a shorthand do de cima então é esse
+             min-height: 100vh;
+             background: black url(imagens/wallpaper002.jpg) no-repeat fixed center center / cover; 
+            */
+
+            /* shorthand - background
+            background: color > image > repeat > attachment > position > size > origin > clip ;
+            */
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -32,6 +42,22 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eum necessitatibus minima quia explicabo enim, expedita cumque sapiente, esse nostrum dolor ipsam suscipit cupiditate consectetur et ullam reprehenderit sit officiis.
         Non quas sapiente soluta, minus tenetur tempore veritatis tempora, molestias a repellat, culpa cupiditate laborum deleniti suscipit aspernatur. Soluta facilis ullam maxime blanditiis provident voluptatem assumenda quis voluptatibus iusto asperiores.
         Quasi</p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis minus expedita ut quasi dicta, rerum itaque voluptatum sunt eos officia impedit quaerat hic enim error iste incidunt est ratione at!
+        Ut rerum iste sapiente voluptas. Vel inventore praesentium at officiis ratione saepe tenetur! Sunt odit excepturi eaque culpa quibusdam obcaecati iure! At iste molestiae laborum sunt necessitatibus error minima exercitationem!
+        Molestias quas consequatur quae, iste molestiae fugit autem laborum, vitae incidunt animi ullam nisi corporis magni deleniti nam voluptatibus laudantium ipsa, temporibus nesciunt! Architecto nisi, quam adipisci libero dignissimos ratione.</p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio officia deleniti molestiae enim illum quidem aliquam cum. Recusandae ea molestiae quisquam nobis, labore minima neque consequuntur esse natus reiciendis quia.
+        Autem ea, ipsa facere maxime modi cupiditate aperiam saepe neque atque totam dolores pariatur earum mollitia ut officiis iusto rem aspernatur consectetur harum reprehenderit. Vitae molestias inventore atque placeat corrupti.
+        Quia architecto similique quod minima nam iusto incidunt velit sit! Obcaecati fugit delectus quisquam deleniti adipisci, accusamus, voluptatem dolores ab iste veritatis, nostrum inventore magni tempora. Culpa aspernatur cupiditate doloribus.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla explicabo corrupti magni, unde mollitia temporibus sit, voluptates architecto laudantium adipisci amet! Perspiciatis a praesentium velit dolore fugit iste, obcaecati tempore.
+        Iste maxime ad praesentium laudantium nam sunt, id rerum, quisquam ea voluptas qui quod perferendis ullam cum culpa fugiat dignissimos tempore, error repudiandae aut soluta molestias distinctio. Dicta, consectetur. Est!
+        Repudiandae deserunt cupiditate tempora earum rerum maxime accusamus labore fugiat sit. Distinctio labore atque magni assumenda non nobis dolore quidem eum obcaecati saepe? Et, dolorum ducimus minima veniam ea error?</p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt est, soluta obcaecati minus quaerat quas nam provident ipsa sapiente sit sed saepe hic, sint in corrupti vitae neque dignissimos rem.
+        Illum delectus suscipit odit? Eveniet repellendus maxime itaque doloremque commodi, perspiciatis eligendi sed dolorem facilis sapiente consectetur at culpa totam amet natus explicabo sit provident aperiam error minima eos doloribus.
+        Consequuntur aliquam, magnam nisi possimus quo aut nostrum illo ullam corporis minus. Atque nostrum et excepturi libero iste? Asperiores possimus inventore quam corporis neque. Numquam molestiae tenetur voluptatibus harum pariatur!</p>
     </main>
 </body>
 </html>
